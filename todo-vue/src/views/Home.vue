@@ -1,13 +1,10 @@
 <template>
-  <HelloWorld />
+  <div class="home">
+    <h1>Hello</h1>
+    <v-btn>Click Me</v-btn>
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
-
-  export default {
-    components: {
-      HelloWorld
-    }
-  }
+export default {};
 </script>
